@@ -38,6 +38,7 @@ public class WebConfig implements WebMvcConfigurer {
                         "/css/**", "/*.ico", "/error");
     }
 
+    // WAS를 띄우면서 등록해줌
     @Bean
     public FilterRegistrationBean logFilter() {
         FilterRegistrationBean<Filter> filterRegistrationBean = new FilterRegistrationBean<>();

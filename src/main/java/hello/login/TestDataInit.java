@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 
 @Component
-@RequiredArgsConstructor
+@RequiredArgsConstructor // 서버띄울때 실행됨
 public class TestDataInit {
 
     private final ItemRepository itemRepository;
